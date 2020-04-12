@@ -17,6 +17,8 @@ async function main() {
     let weather = new Weather(url, appid)
     let {create, username, pass } = argv
     if (create && username &&  pass)  create_user(username,pass)
+    if (create && !username || !pass) return console.log('revisa las entradas');
+    
     
 
     let user = await cli.prompt('username')
