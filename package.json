@@ -10,7 +10,7 @@
   "author": "Edilson Londoño Castañeda <eddylson.londonio@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "console.table": "^0.10.0",
     "minimist": "^1.2.5"
   },
